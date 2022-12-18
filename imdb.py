@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 
 # Your imbd ratings url
-URL = 'https://www.imdb.com/user/ur73628355/ratings?ref_=nv_usr_rt_4'
+URL = ''
 
 html = requests.get(URL).content
 soup = BeautifulSoup(html,"html.parser")
